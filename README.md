@@ -1,16 +1,16 @@
 # Metacrafters-SolidityAssesssment
 This Solidity program is submitted as a requirement for Metacrafter's ETH Solidity Beginner Course.
 
+This program can be run using an online Solidity IDE named Remix. This is especially useful if you haven't installed a Solidity Compiler in your local device.
+
 ## Getting Started
 ### Executing / Running the Program
-You can use the online Solidity IDE named Remix, you can find it here: https://remix.ethereum.org/
-Make a new file and copy paste the content of the "MyTokenFile.sol".
+- You can use the online Solidity IDE named Remix, you can find it here: https://remix.ethereum.org/
+- Make a new file and copy paste the content of the "MyTokenFile.sol".
+- Compile the code, on the left side of the screen, with the icon named `Solidity Compiler`. Compile and then run.
+- Go to `Deploy & Run Transactions` tab and press `Deploy` on the Contract `MyToken` as named in the run file.
+- Scroll down and go to `Deployed Contracts`, there should a dropdown that shows the defined and then experiment with different values to mint and burn.
 
-Compile the code, on the left side of the screen, with the icon named `Solidity Compiler`. Compile and then run.
-After that, go to `Deploy & Run Transactions` tab and press `Deploy` on the Contract `MyToken` as named in the run file.
-From there, scroll down and go to `Deployed Contracts`, there should a dropdown that shows the defined and then experiment with different values to mint and burn.
-
-### The Code
 Here is the code snippet of the contract under `MyTokenFile.sol`.
 ```
 contract MyToken {
@@ -42,5 +42,6 @@ contract MyToken {
 There are two functions for this activity `mint()` and `burn()`. For both functions, there are two parameters with the address and, unsigned integer for the value.
 The values are mapped from the line `mapping(address => uint) public balances;`.
 
+
 ## Author
-Jerald0803
+Jeraldo0803
